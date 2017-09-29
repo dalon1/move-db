@@ -1,0 +1,170 @@
+// User Mocked API
+
+{
+  "users": [{
+      "id": 100,
+      "name": {
+        "firstName": "Dannel",
+        "middleName": null,
+        "lastName": "Alon"
+      },
+      "userName": "dalon",
+      "emailAddress": "a@c.com",
+      "password": "******",
+      "description": "Just a normal guy",
+      "countryId": 100,
+      "role": "ADMIN",
+      "userCreated": "",
+      "userUpdated": ""
+    },
+    {
+      "id": 100,
+      "name": {
+        "firstName": "Juanito",
+        "middleName": null,
+        "lastName": "Perez"
+      },
+      "userName": "perez1",
+      "emailAddress": "c@c.com",
+      "password": "******",
+      "description": "Perez is a random guy",
+      "countryId": 100,
+      "role": "MEMBER",
+      "userCreated": "",
+      "userUpdated": ""
+    }
+  ],
+  "limit": "20",
+  "total": "20"
+}
+
+// Country Mocked API
+{
+  "countries": [{
+      "id": 100,
+      "continentId": 200,
+      "name": "Panama",
+      "shortName": "PAN"
+    },
+    {
+      "id": 101,
+      "continentId": 200,
+      "name": "China",
+      "shortName": "CHN"
+    }
+  ]
+}
+
+
+// Country Mocked API
+{
+  "countryProfiles": [
+    {
+      "countryId": 100,
+      "currency": "Balboa",
+      "population": 4000000
+    }
+  ]
+}
+
+// Continent Mocked API
+{
+  "continents": [
+    {
+      "id": 300,
+      "name": "AMERICA"
+    }
+  ]
+}
+
+// Theme Mocked API
+{
+  "themes": [
+    {
+      "id": 400,
+      "name": "Finance",
+      "description": "This topic is reallh boring"
+    },
+    {
+      "id": 401,
+      "name": "Education",
+      "description": "This one too!"
+    }
+  ]
+}
+
+
+// Document Mocked API
+{
+  "documents": [
+    {
+      "id": 500,
+      "title": "Financial Literacy is boring",
+      "description": "This is just a random document",
+      "fileExtension": ".docx",
+      "visibility": "PUBLIC",
+      "type": "TEXT",
+      "userId": 100,
+      "categoryId": 200,
+      "countryId": 300,
+      "themeId": 400,
+      "datePublished": "",
+      "dateUpdated": ""
+    },
+    {
+      "id": 501,
+      "title": "Financial Literacy is boring",
+      "description": "This is just a random document",
+      "fileExtension": ".docx",
+      "visibility": "PUBLIC",
+      "type": "TEXT",
+      "userId": 100,
+      "categoryId": 200,
+      "countryId": 300,
+      "themeId": 400,
+      "datePublished": "",
+      "dateUpdated": ""
+    }
+  ]
+}
+
+// Tag Mocked API
+{
+  "documentTags": [
+    {
+      "id": 500,
+      "name": "FinanceInPanama"
+    },
+    {
+      "id": 501,
+      "name": "FinanceInNowhere"
+    }
+  ]
+}
+
+// Category Mocked API
+{
+  "categories": [
+    {
+      "id": 600,
+      "name": "Economic",
+      "description": "random topic"
+    },
+    {
+      "id": 601,
+      "name": "Random",
+      "description": "random topic"
+    }
+  ]
+}
+
+// Subcategory Mocked API
+{
+  "subcategories": [
+    {
+      "categoryId": 600,
+      "name": "Nothing",
+      "value": null
+    }
+  ]
+}

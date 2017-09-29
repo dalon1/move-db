@@ -42,8 +42,7 @@ CREATE TABLE country (
 CREATE TABLE country_profile (
   country_id    INT UNSIGNED NOT NULL, -- fk
   currency      VARCHAR(20),
-  population    VARCHAR(20),
-  continent     VARCHAR(20)
+  population    VARCHAR(20)
 );
 
 -- Table for Continents
@@ -73,7 +72,7 @@ CREATE TABLE document (
   category_id     INT UNSIGNED NOT NULL, -- fk
   country_id      INT UNSIGNED NOT NULL, -- fk
   theme_id        INT UNSIGNED NOT NULL, -- fk
-  date_created    TIMESTAMP,
+  date_published  TIMESTAMP,
   date_updated    TIMESTAMP,
   PRIMARY KEY(id)
 );
